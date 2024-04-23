@@ -544,7 +544,14 @@ padding: 0px;
 #announce {
     right: 30px;
     top: 60px;
-    cursor: pointer
+    cursor: pointer;
+}
+
+#newButton {
+    position: absolute;
+    right: 100px; /* Adjust this value to move the button horizontally */
+    top: 60px; /* Keep this value the same as the original button */
+    cursor: pointer;
 }
 
 #woof {
