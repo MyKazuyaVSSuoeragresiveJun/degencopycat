@@ -1955,16 +1955,3 @@ padding: 0px;
 .anim-text-flow-hover:hover span:nth-of-type(100) {
     animation-delay: 0s
 }
-
-#text-on-background {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
-    font-family: Arial, sans-serif;
-    font-size: 24px;
-    opacity: 0.8; /* Adjust the opacity as needed */
-    background: none; /* Remove any background */
-}
