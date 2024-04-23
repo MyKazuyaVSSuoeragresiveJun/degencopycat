@@ -1956,26 +1956,3 @@ padding: 0px;
     animation-delay: 0s
 }
 
-.container {
-    position: relative;
-    height: 100vh; /* Set the container height to fill the viewport */
-    display: flex;
-    justify-content: center; /* Horizontally center content */
-    align-items: center; /* Vertically center content */
-}
-
-.text-overlay {
-    text-align: center;
-    color: white; /* Text color */
-    font-family: Arial, sans-serif; /* Set your desired font family */
-}
-
-.text-overlay h1 {
-    font-size: 3em; /* Set your desired font size for heading */
-    margin-bottom: 20px; /* Adjust as needed */
-    font-weight: bold; /* Make the heading bold */
-}
-
-.text-overlay p {
-    font-size: 1.5em; /* Set your desired font size for paragraph */
-}
