@@ -549,7 +549,7 @@ padding: 0px;
 
 #newButton {
     position: absolute;
-    right: 100px; /* Adjust this value to move the button horizontally */
+    right: 150px; /* Adjust this value to increase the space between buttons */
     top: 60px; /* Keep this value the same as the original button */
     cursor: pointer;
 }
