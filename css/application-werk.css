@@ -464,7 +464,7 @@ padding: 0px;
     top: 0;
     margin: 0.7rem;
     -webkit-appearance: none;
-    border: 3px solid #FFF;
+    border: none;
     outline: none;
     padding: 0px 10px;
     cursor: pointer;
