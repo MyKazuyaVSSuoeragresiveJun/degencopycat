@@ -1958,6 +1958,10 @@ padding: 0px;
 
 .container {
     position: relative;
+    height: 100vh; /* Set the container height to fill the viewport */
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
 }
 
 .background {
@@ -1967,22 +1971,21 @@ padding: 0px;
     width: 100%;
     height: 100%;
     background-color: #abcdef; /* Set your desired background color */
+    z-index: -1; /* Ensure the background is behind the text */
 }
 
 .text-overlay {
-    position: absolute;
-    top: 50%; /* Adjust as needed to vertically center the text */
-    left: 50%; /* Adjust as needed to horizontally center the text */
-    transform: translate(-50%, -50%);
     text-align: center;
     color: white; /* Text color */
+    font-family: Arial, sans-serif; /* Set your desired font family */
 }
 
 .text-overlay h1 {
-    font-size: 2em; /* Adjust as needed */
-    margin-bottom: 10px; /* Adjust as needed */
+    font-size: 3em; /* Set your desired font size for heading */
+    margin-bottom: 20px; /* Adjust as needed */
+    font-weight: bold; /* Make the heading bold */
 }
 
 .text-overlay p {
-    font-size: 1.2em; /* Adjust as needed */
+    font-size: 1.5em; /* Set your desired font size for paragraph */
 }
