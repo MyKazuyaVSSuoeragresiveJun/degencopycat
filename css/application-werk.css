@@ -1955,28 +1955,3 @@ padding: 0px;
 .anim-text-flow-hover:hover span:nth-of-type(100) {
     animation-delay: 0s
 }
-
-.container {
-    position: relative;
-    height: 100vh; /* Set the container height to fill the viewport */
-    background-color: #abcdef; /* Set your desired background color */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.text {
-    text-align: center;
-    color: white; /* Text color */
-    font-family: Arial, sans-serif; /* Set your desired font family */
-}
-
-.text h1 {
-    font-size: 3em; /* Set your desired font size for heading */
-    margin-bottom: 20px; /* Adjust as needed */
-    font-weight: bold; /* Make the heading bold */
-}
-
-.text p {
-    font-size: 1.5em; /* Set your desired font size for paragraph */
-}
