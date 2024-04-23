@@ -1955,3 +1955,34 @@ padding: 0px;
 .anim-text-flow-hover:hover span:nth-of-type(100) {
     animation-delay: 0s
 }
+
+.container {
+    position: relative;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #abcdef; /* Set your desired background color */
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%; /* Adjust as needed to vertically center the text */
+    left: 50%; /* Adjust as needed to horizontally center the text */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Text color */
+}
+
+.text-overlay h1 {
+    font-size: 2em; /* Adjust as needed */
+    margin-bottom: 10px; /* Adjust as needed */
+}
+
+.text-overlay p {
+    font-size: 1.2em; /* Adjust as needed */
+}
