@@ -603,7 +603,7 @@ padding: 0px;
 	
 	#questions {
         cursor: pointer;
-        left: 10px;
+        left: 0px;
     }
 	
 	#woof {display: block;}
