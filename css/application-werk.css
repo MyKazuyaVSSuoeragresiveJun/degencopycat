@@ -549,14 +549,14 @@ padding: 0px;
 
 #newButton1 {
     position: absolute;
-    right: 120px; /* Adjust this value to increase the space between buttons */
+    right: 118px; /* Adjust this value to increase the space between buttons */
     top: 60px; /* Keep this value the same as the original button */
     cursor: pointer;
 }
 
 #newButton2 {
     position: absolute;
-    right: 195px; /* Adjust this value to increase the space between buttons */
+    right: 198px; /* Adjust this value to increase the space between buttons */
     top: 60px; /* Keep this value the same as the original button */
     cursor: pointer;
 }
